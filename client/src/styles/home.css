@@ -1,0 +1,13 @@
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
